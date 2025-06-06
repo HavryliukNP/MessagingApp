@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessagingApp.Api", "MessagingApp.Api\MessagingApp.Api.csproj", "{859860A7-D4CC-4C72-AC33-E58F922D2EE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessagingApp.Web", "MessagingApp.Web\MessagingApp.Web.csproj", "{D4DDB8CF-30D7-430B-B7EA-22B5CC370B6F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{859860A7-D4CC-4C72-AC33-E58F922D2EE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{859860A7-D4CC-4C72-AC33-E58F922D2EE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{859860A7-D4CC-4C72-AC33-E58F922D2EE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{859860A7-D4CC-4C72-AC33-E58F922D2EE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4DDB8CF-30D7-430B-B7EA-22B5CC370B6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4DDB8CF-30D7-430B-B7EA-22B5CC370B6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4DDB8CF-30D7-430B-B7EA-22B5CC370B6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4DDB8CF-30D7-430B-B7EA-22B5CC370B6F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
