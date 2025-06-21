@@ -1,4 +1,6 @@
+using MessagingApp.Api.Domain.Interfaces;
 using MessagingApp.Api.Infrastructure.Data;
+using MessagingApp.Api.Infrastructure.Repositories;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -11,6 +13,11 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
+
+builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<IMessageRepository, MessageRepository>();
+
+builder.Services.AddControllers();
 
 var app = builder.Build();
 
